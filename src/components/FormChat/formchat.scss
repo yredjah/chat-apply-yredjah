@@ -1,0 +1,22 @@
+#chatroom {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 42px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#inpt {
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  margin: 5px;
+  padding: 15px;
+}
+
+#inpt::placeholder {
+  color: black; 
+}
+
